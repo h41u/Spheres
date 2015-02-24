@@ -5,6 +5,6 @@ attribute vec4 attr;
 void main() {
 	gl_FrontColor = gl_Color;
 	gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
-	gl_PointSize = 40 ; 
+	gl_PointSize = attr[0]*500 ; 
 }
 

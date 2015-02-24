@@ -6,7 +6,7 @@
 #include <math.h>
 
 #define NATOMS 1000
-#define ROTATE 0
+#define ROTATE 1
 
 #define RENDER_SPHERES_INSTEAD_OF_VERTICES 0
 
